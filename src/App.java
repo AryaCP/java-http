@@ -16,7 +16,7 @@ public class App {
                 """);
         HttpRequest request = HttpRequest.newBuilder()
             .uri(URI.create("https://jsonplaceholder.typicode.com/posts/1"))
-            .DELETE()
+            .POST(bp)
             .build();
                 
     try {
