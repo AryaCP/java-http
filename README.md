@@ -16,3 +16,13 @@ Meanwhile, the compiled output files will be generated in the `bin` folder by de
 ## Dependency Management
 
 The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+
+## How it works ?
+
+Basic java app used to connect to JSON placeholder https://jsonplaceholder.typicode.com/ and read data from it.
+
+This is used to get data from API and trycatch the results
+
+## Data Manipulation
+
+Change POST method -> other methods like get , put , patch or delete , To get all the data.
